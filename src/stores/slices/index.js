@@ -1,0 +1,21 @@
+import {freeze} from '@reduxjs/toolkit';
+
+export {default as PostSlice} from './PostSlice';
+export {default as MydaySlice} from './MydaySlice';
+export {default as CommentSlice} from './CommentSlice';
+export {default as PageSlice} from './PageSlice';
+export {default as AddPostSlice} from './AddPostSlice';
+export {default as DarkModeSlice} from './DarkModeSlice';
+export {default as UserInfoSlice} from './UserInfoSlice';
+export {default as NotificationSlice} from './NotificationSlice';
+export {default as VersionControlSlice} from './VersionControlSlice';
+export {default as CreateEventSlice} from './CreateEventSlice';
+export {default as DeleteEventSlice} from './DeleteEventSlice';
+export {default as CreateProductSlice} from './CreateProductSlice';
+export {default as MarketSlice} from './market_slice';
+export {default as WalletSlice} from './WalletSlice';
+export {default as MonetizedSlice} from './monetization_slice';
+export {default as LiveStreamSlice} from './liveStreamSlice';
+export {default as JobSlice} from './JobSlice';
+export {default as SearchSlice} from './searchSlice';
+export {default as NormalLiveSlice} from './normalLiveSlice';
